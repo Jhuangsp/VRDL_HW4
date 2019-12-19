@@ -210,7 +210,8 @@ def train():
         yolact_net.init_weights(backbone_path=args.save_folder + cfg.backbone.path)
 
     optimizer = optim.SGD(net.parameters(), lr=args.lr, momentum=args.momentum,
-                          weight_decay=args.decay)
+                          weight_decay=args
+.decay)
     criterion = MultiBoxLoss(num_classes=cfg.num_classes,
                              pos_threshold=cfg.positive_iou_threshold,
                              neg_threshold=cfg.negative_iou_threshold,
