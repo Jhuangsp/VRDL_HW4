@@ -102,3 +102,12 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+external/
+scripts/
+submission/
+web/
+weights/
+data/VRDL_data/*
+*.pdf
+LICENSE
