@@ -111,3 +111,4 @@ weights/
 data/VRDL_data/*
 *.pdf
 LICENSE
+read_json.ipynb
